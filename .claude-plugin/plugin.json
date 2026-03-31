@@ -1,0 +1,12 @@
+{
+  "name": "sahaj-presentation",
+  "version": "1.0.0",
+  "description": "Generate professional PowerPoint presentations in Sahaj's corporate theme and visual identity",
+  "author": {
+    "name": "Priyadarshan Patil",
+    "url": "https://github.com/priyadarshan85"
+  },
+  "repository": "https://github.com/priyadarshan85/sahaj-presentation-skill",
+  "license": "MIT",
+  "keywords": ["presentation", "powerpoint", "pptx", "sahaj", "slides"]
+}

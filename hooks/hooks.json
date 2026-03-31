@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "diff -q \"${CLAUDE_PLUGIN_ROOT}/skills/sahaj-presentation/scripts/requirements.txt\" \"${CLAUDE_PLUGIN_DATA}/requirements.txt\" >/dev/null 2>&1 || (cd \"${CLAUDE_PLUGIN_DATA}\" && python3 -m venv .venv && .venv/bin/pip install -r \"${CLAUDE_PLUGIN_ROOT}/skills/sahaj-presentation/scripts/requirements.txt\" && cp \"${CLAUDE_PLUGIN_ROOT}/skills/sahaj-presentation/scripts/requirements.txt\" .) || true"
+          }
+        ]
+      }
+    ]
+  }
+}
